@@ -1,0 +1,401 @@
+/* TEST */
+#edito{
+	color: white;
+}
+
+#editoblock{
+  background-image: url("../image/bg-appleproducts.jpg");
+  box-shadow: 0rem 0rem 0.625rem black;
+  text-shadow: 0rem 0rem 0.5rem black;
+  height: 100%;
+}
+
+#editoblock h1{
+  margin-top: 30%;
+}
+
+#editoblock:hover{
+  transition: opacity 0.5s;
+  opacity: 0.7;
+}
+
+.dossier{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#dossier1{
+  color: white;
+  background-image: url("../image/bg-appleproducts.jpg");
+  box-shadow: 0rem 0rem 0.625rem black;
+  text-shadow: 0rem 0rem 0.5rem black;
+  height: 100%;
+}
+
+
+#dossier1:hover{
+  transition: opacity 0.5s;
+  opacity: 0.7;
+}
+
+.dossier2{
+  color: #cccccc;
+  background-color: #444444;
+  border:dashed 2px #686868;
+}
+
+.dossier2:hover{
+   transition: opacity 0.5s;
+  opacity: 0.7;
+}
+
+.dossier h2{
+  margin-top: 10px;
+}
+
+/* -------------- CONSTANTES -------------- */
+
+.accueil-icon{
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.accueil-icon2{
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.nav-icon{
+	margin-right: 5px;
+}
+
+/* Titre H */
+.titre-h5{
+  color: white;
+}
+
+#menunavmobile{
+	color: white;
+	text-decoration: none;
+}
+
+/* Ombre navbar */
+nav {
+  box-shadow: 0rem 0.125rem 0.625rem;
+}
+
+/* Couleur de fond de la page */
+.bg-background{
+  background-color: #44494f;
+}
+
+/* Espacements des badges page "Membres de l'équipe" */
+.badge-primary{
+  margin-left: 0.625rem;
+}
+
+/* Couleur lignes de séparations */
+hr{
+  background-color: #2ECC71;
+}
+
+span:hover{
+  transition: opacity 0.5s;
+  opacity: 0.7;
+}
+
+/* Titres des sections page d'accueil */
+.titre-h3-blanc-page-accueil{
+  color: white;
+  padding-top: 3.125rem;
+}
+
+/* Titres des pages*/
+.title-page{
+  color: white;
+  margin-top: 0.625rem;
+}
+
+#logo{
+  height: 40px;
+}
+
+#logo:hover{
+  transition: opacity 0.5s;
+  opacity: 0.7;
+}
+
+/* Icones "liens" */
+.link-image{
+  width: 0.9375rem;
+  display: inline-block;
+}
+
+/* Texte de couleur blanche */
+.couleur-texte-blanche{
+  color: white;
+}
+
+/* Changer l'aspect de tous les liens */
+.container a{
+	color: white;
+}
+
+.container a:hover {
+  text-decoration: none;
+	color: white;
+}
+
+/* -------------- PAGE D'ACCUEIL -------------- */
+
+/* Grande image */
+#section-1{
+  margin-top: 1.25rem;
+  background-image: url(../image/bg-appleproducts.jpg);
+  color: white;
+  box-shadow: 0rem 0rem 0.625rem black;
+  text-shadow: 0rem 0rem 0.625rem black;
+}
+
+#section-1:hover{
+  transition: opacity 0.5s;
+  opacity: 0.7;
+}
+
+#section-1 h1{
+  position: relative;top: 4.0625rem;
+  margin-left: 0.625rem;
+	margin-bottom: 40px;
+}
+
+#section-1 h2{
+  margin-right: 0.625rem;
+}
+
+#section-1 p{
+  position: relative;top: 3.125rem;
+  margin-left: 0.625rem;
+}
+
+#edito{
+	margin-top: 20px;
+}
+
+/* Points communs */
+.articles-page-accueil {
+	  text-shadow: 0rem 0rem 0.625rem black;
+		color: white;
+    box-shadow: 0rem 0rem 0.625rem black;
+}
+
+.articles-page-accueil:hover{
+	transition: opacity 0.5s;
+	opacity: 0.7;
+}
+
+.articles-page-accueil img{
+	display: inline-flex;
+}
+
+.articles-page-accueil h3{
+	display: inline-flex;
+	position: relative;left: 10px; top: 5px;
+}
+
+/* Spécificités de chaque articles */
+#articles-content-1{
+  background-image: url(../image/bg-trump.jpg);
+}
+
+#articles-content-2{
+  background-image: url(../image/bg-scenat.jpg);
+}
+
+#articles-content-3{
+  background-image: url(../image/bg-bloque.jpg);
+}
+
+
+#articles-content-4{
+  background-image: url(../image/bg-twitter.jpg);
+}
+
+/* -------------- PAGE LISTE DES ARTICLES -------------- */
+
+.lien-synthese-generale p{
+  margin-top: 5rem;
+}
+.lien-synthese-generale p:hover{
+  transition: opacity 0.5s;
+  opacity: 0.5;
+}
+
+.liste-articles-containers{
+    box-shadow: 0rem 0rem 0.625rem black;
+    margin-bottom: 1.875rem;
+}
+
+.liste-article-nom {
+  color: #2ECC71;
+  margin-top: 0.625rem;
+}
+
+.link-external-article{
+  background-color: #2ECC71;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+.link-external-article:hover{
+  transition: opacity 0.5s;
+  opacity: 0.7;
+}
+
+.link-external-article h4{
+  display: inline-block;
+  margin-top: 0.3125rem;
+}
+
+.link-external-article img {
+  margin-bottom: 0.5rem;
+  margin-right: 0.625rem;
+}
+
+/* -------------- PAGE SUJET -------------- */
+#presentation-sujet-container{
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+  box-shadow: 0rem 0rem 0.625rem black;
+	height: 100%;
+}
+
+.spacebot{
+  margin-bottom: 15px;
+}
+
+/* -------------- PAGE SYNTHESE INDIVIDUELLE -------------- */
+
+.synthese-individuelle{
+  padding-bottom: 0.625rem;
+}
+
+#synthese-individuelle-h4{
+  padding-top: 0.625rem;
+}
+
+/* -------------- PAGE MEMBRES DE L'ÉQUIPE -------------- */
+.pdp {
+  width: 9.375rem;
+}
+
+.pdp:hover{
+  transition: opacity 0.5s;
+  opacity: 0.7;
+}
+
+.section-equipe{
+  margin-bottom: 1.25rem;
+}
+
+.boutons-equipe{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.card-deck{
+	margin-bottom: 50px;
+}
+
+.card-title{
+	color: #2ECC71;
+}
+
+/* -------------- FOOTER -------------- */
+
+footer a{
+	text-decoration: none;
+	color: white;
+
+}
+
+footer a:hover{
+	text-decoration: none;
+	color: white;
+		opacity: 0.5;
+}
+
+footer img {
+  width: 1rem;
+  margin-top: 0.625rem;
+  margin-left: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+footer img:hover{
+  transition: opacity 0.5s;
+  opacity: 0.7;
+}
+
+.footer-text {
+  margin-left: 1.875rem;
+	text-decoration: none;
+  color: white;
+}
+
+
+
+/* -------------- ANIMATIONS MENU -------------- */
+
+.hvr-underline-reveal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(0.0625rem) translateZ(0);
+  transform: perspective(0.0625rem) translateZ(0);
+  box-shadow: 0 0 0.0625rem transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-reveal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2ECC71;
+  height: 4px;
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+
+/* -------------- ANIMATE.CSS -------------- */
+@charset "UTF-8";
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}

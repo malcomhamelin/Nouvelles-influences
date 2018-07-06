@@ -1,0 +1,248 @@
+<!-- TODO: Organiser les balises -->
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" type="image/png" href="../image/favicon.png" />
+		<link href="https://use.fontawesome.com/releases/v5.0.3/css/all.css" rel="stylesheet">
+
+    <title>Nouvelles Influences - Accueil</title>
+    <!-- bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+<!-- JQUERY -->
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+
+    </head>
+
+
+  <body class="bg-background" id="background">
+
+
+<!-- Menu de navigation -->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark bg-faded sticky-top">
+  <a class="navbar-brand" href="index.html"><img src="../image/logo.png" alt="brand.png" id="logo"></a>
+	<a href="#" data-toggle="modal" data-target="#myModal2" id="menunavmobile"><h1><i class="fas fa-bars d-md-none"></i></h1></a>
+  <div class="navbar-collapse collapse">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item active hvr-underline-reveal"><a class="nav-link" href="index.html"><i class="fas fa-home nav-icon"></i>Accueil</a></li>
+		<li class="nav-item hvr-underline-reveal"><a class="nav-link" href="selection-articles-choose.html"><i class="fas fa-list nav-icon"></i>Sélection d'articles</a></li>
+	  <li class="nav-item hvr-underline-reveal"><a class="nav-link" href="liste-dossiers.html"><i class="fas fa-folder nav-icon"></i>Dossiers</a></li>
+		<li class="nav-item hvr-underline-reveal"><a class="nav-link" href="membres-equipe.html"><i class="fas fa-users nav-icon"></i>Membres de l'équipe</a></li>
+  </ul>
+</div>
+</nav>
+
+
+  <!-- edito -->
+<div class="container animated fadeIn">
+	<h4 class="couleur-texte-blanche" id="edito"><i class="fas fa-folder-open nav-icon"></i>Dossier mensuel</h4>
+	<hr/>
+  <div class="row">
+
+  <a href="synthese.html" class="col-lg-5 rounded">
+     <div class="rounded d-flex align-items-end flex-column" id="editoblock">
+       <h1 class="text-center">Politique et réseaux sociaux : quel rapport ?</h1>
+       <h5 class="mt-auto p-2">Accéder au dossier...</h5>
+     </div>
+    </a>
+
+    <div class="col-lg-7">
+
+	 		<h2 id="edito"><i class="fas fa-pencil-alt"></i> Edito</h2>
+      <p class="text-justify couleur-texte-blanche">La Politique est étymologiquement lié à la manipulation (au sens scientifique du terme) du pouvoir. Elle est d’abord l’art de le conquérir : des premiers Hommes, où il était confié de manière instinctive, presque animale, à celui qui serait le plus à même de mener le groupe à la survie, à nos jours, où différents systèmes cohabitent avec plus ou moins de succès, la question d’obtenir l’adhésion du plus grand nombre s’est faite centrale. Elle est enfin l’art de le conserver, de garder l’approbation de la majorité afin de pouvoir continuer à mener le groupe dont on est en charge.</p>
+      <p class="text-justify couleur-texte-blanche">Les décisions prises, les actions perpétrées ou les discours prononcés définissent l’image globale renvoyée par l’aspirant ou le décideur politique, elle même induisant le comportement de la population. La propagation des idées a, de fait, été de tout temps un vecteur central de la Politique, il est donc tout naturel que les époques aient vu évoluer un processus intrinsèquement lié à cette dernière : l’influence.</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- Sélection d'articles -->
+<div class="container animated fadeIn">
+	<h4 class="couleur-texte-blanche" id="edito"><i class="fas fa-star nav-icon"></i>Articles à la une</h4>
+	<hr/>
+
+
+    <!-- Article 1 -->
+     <a href="http://www.lefigaro.fr/secteur/high-tech/2016/11/14/32001-20161114ARTFIG00108-donald-trump-l-autre-president-des-reseaux-sociaux.php" target="_blank">
+      <div class="col-12 rounded articles-page-accueil" id="articles-content-1">
+        <h3><i class="fas fa-link fa-xs d-none d-xl-inline accueil-icon"></i>Donald Trump : L'autre président des réseaux sociaux</h3>
+        <p class="font-italic">de RONFAUT Lucie</p></div>
+      </a>
+
+      <!-- Article 2 -->
+     <a href="https://www.lesechos.fr/idees-debats/cercle/cercle-167475-les-reseaux-sociaux-au-coeur-dun-paysage-politique-aux-mecanismes-renouveles-2072138.php" target="_blank">
+      <div class="col-12 rounded articles-page-accueil" id="articles-content-2">
+        <h3><i class="fas fa-link fa-xs d-none d-xl-inline accueil-icon"></i>Les réseaux sociaux au coeur d’un paysage politique aux mécanismes renouvelés</h3>
+        <p class="font-italic">de ROZIL Stephane</p></div>
+      </a>
+
+<!-- Article 3 -->
+     <a href="http://www.lefigaro.fr/secteur/high-tech/2014/03/29/32001-20140329ARTFIG00110-ces-pays-qui-bloquent-l-acces-a-facebook-twitter-et-youtube.php" target="_blank">
+      <div class="col-12 rounded articles-page-accueil" id="articles-content-3">
+        <h3><i class="fas fa-link fa-xs d-none d-xl-inline accueil-icon"></i>Ces pays bloquant l’accès à Facebook, Twitter et Youtube</h3>
+        <p class="font-italic">de GOLLA Mathilde</p></div>
+      </a>
+
+<!-- Article 4 -->
+     <a href="http://www.lefigaro.fr/politique/le-scan/2016/12/27/25001-20161227ARTFIG00004-pourquoi-les-politiques-s-expriment-autant-sur-les-reseaux-sociaux.php" target="_blank">
+      <div class="col-12 rounded articles-page-accueil" id="articles-content-4">
+        <h3><i class="fas fa-link fa-xs d-none d-xl-inline accueil-icon"></i>Pourquoi les politiques s’expriment sur les réseaux sociaux</h3>
+        <p class="font-italic">de SEMERDIJAN Jean-Baptiste</p></div>
+      </a>
+
+</div>
+
+
+
+<!-- footer -->
+<footer class="bg-dark bg-faded animated fadeIn">
+  <a href="index.html"><img src="../image/favicon.png" alt="logo" ></a>
+  <a href="membres-equipe.html"class="align-middle footer-text">A propos</a>
+	<a href="#" data-toggle="modal" data-target="#myModal" id="changelog" class="align-middle footer-text">Changelog</a>
+</footer>
+
+<!-- MODAL -->
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Historique des mises à jour</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <h4>Beta</h4>
+					<strong>1.2.0</strong>
+					<ul>
+						<li>Modification de la structure des pages de synthèses</li>
+						<li>Modification de la structure de la page d'accueil</li>
+						<li>Ajout d'icônes dans le menu de navigation</li>
+						<li>Mise à jour du logo</li>
+						<li>Modification du footer</li>
+						<li>Modification de la section "Changelog"</li>
+					</ul>
+					<strong>1.1.0</strong>
+					<ul>
+						<li>Ajout de l'Edito</li>
+						<li>Ajustements bootstrap</li>
+						<li>Modification du titre de la page "Sujet"</li>
+					</ul>
+          <strong>1.0.1</strong>
+          <ul>
+            <li>Modification des titres des onglets</li>
+          </ul>
+          <strong>1.0.0</strong>
+          <ul>
+            <li>Ajout des liens vers les synthèses sur la page "Membres de l'équipe"</li>
+            <li>Ajout des liens facultatifs sur la page "Membres de l'équipe"</li>
+            <li>Ajustements de Bootstrap sur différents composants</li>
+          </ul>
+          <h4>Alpha</h4>
+          <strong>1.5.0</strong>
+          <ul>
+            <li>Modification de la page "Membres de l'équipe"</li>
+          </ul>
+          <strong>1.4.1</strong>
+          <ul>
+            <li>Ajout des animations lors du passage de la souris sur le menu</li>
+          </ul>
+          <strong>1.4.0</strong>
+          <ul>
+            <li>Ajout de la page de la synthèse de Sébastien</li>
+            <li>Ajout de la page de la synthèse de Malcom</li>
+            <li>Ajout de la page de la synthèse de Valentine</li>
+            <li>Ajout de la page de la synthèse de Vincent</li>
+          </ul>
+          <strong>1.3.0</strong>
+          <ul>
+            <li>Ajout de la page "Sujet"</li>
+            <li>Ajout de la page "Membre de l'équipe"</li>
+            <li>Modification du lien "A Propos" dans le footer</li>
+          </ul>
+          <strong>1.2.0</strong>
+          <ul>
+            <li>Ajout de la page "Liste des articles"</li>
+            <li>Ajout des liens vers les articles-sources</li>
+          </ul>
+          <strong>1.1.1</strong>
+          <ul>
+            <li>Modification de certains titres</li>
+            <li>Modification des images de la section "Sélection d'articles"</li>
+            <li>Modification des titres des onglets</li>
+          </ul>
+          <strong>1.1.0</strong>
+          <ul>
+            <li>Ajout de la section "Sélection d'articles"</li>
+            <li>Ajout de la section "Synthèse globale"</li>
+            <li>Mise en place du footer</li>
+            <li>Ajout de différents liens</li>
+          </ul>
+          <strong>1.0.0</strong>
+          <ul>
+            <li>Création du site</li>
+            <li>Ajout de la page "Accueil"</li>
+            <li>Mise en place de Bootstrap</li>
+            <li>Mise en place du menu de navigation</li>
+          </ul>
+        </div>
+
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal">Fermer</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+	<!-- modal nav -->
+	<div class="modal fade" id="myModal2">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">MENU</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+
+				<!-- Modal body -->
+				<div class="modal-body">
+					<a class="nav-link" href="index.html"><i class="fas fa-home nav-icon"></i>Accueil</a>
+					<a class="nav-link" href="selection-articles-choose.html"><i class="fas fa-list nav-icon"></i>Sélection d'articles</a>
+					<a class="nav-link" href="liste-dossiers.html"><i class="fas fa-folder nav-icon"></i>Dossiers</a>
+					<a class="nav-link" href="membres-equipe.html"><i class="fas fa-users nav-icon"></i>Membres de l'équipe</a>
+				</div>
+
+				<!-- Modal footer -->
+				<div class="modal-footer">
+					<button type="button" class="btn btn-success" data-dismiss="modal">Fermer</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!-- bootstrap -->
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
